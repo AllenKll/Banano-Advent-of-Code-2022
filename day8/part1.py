@@ -53,7 +53,7 @@ while line:
 numCols = len(grid[0])
 numRows = len(grid)
 
-count = 0;
+count = 0
 
 #loop through all points INSIDE the outer square of trees, since the outer square is visible and we can just add it at the end.
 for x in range(1,numCols-1):
